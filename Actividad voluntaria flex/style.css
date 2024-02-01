@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Preahvihear', sans-serif;
+}
+body{
+    
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: whitesmoke;
+}
+.contenedorFluido{
+    display: flex;   
+    flex-flow:row;    
+    justify-content: space-evenly;
+    align-items: center;
+   
+    
+    background-image: url(/img/fondo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    
+    
+       
+    min-height: 100vh;    
+}
+
+.caja{
+    margin: 10px;
+    padding: 25px;
+    display: flex;   
+    flex-flow:column wrap;    
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #EAC7C7;
+    border: #e59c9c 3px solid;
+    border-radius: 20px;
+}
+
+
+div img {
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+  }
+  div img {    
+    height: 250px;
+    margin: 15px;    
+    float: left;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+  }
+  div img:hover {
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+  }
+
+  audio{
+    margin-top: 10px;
+  }
+
+  .imgcolor{
+    filter:none;    
+  }
+  p{
+    font-size: 15px;
+  }
